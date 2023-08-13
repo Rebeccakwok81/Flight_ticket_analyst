@@ -2,13 +2,10 @@ from tkinter import *
 from tkinter import messagebox
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from bs4 import BeautifulSoup
-import requests
 from tkcalendar import Calendar, DateEntry
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support import expected_conditions as EC
 import time
 from selenium.webdriver.common.keys import Keys
 import pandas as pd
